@@ -2,9 +2,9 @@ header {
     /*Estilizando o Header*/
 
     background-color: #b78880;
-    padding: 35px;
+    
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 10px;
     align-items: center;
 
@@ -57,10 +57,17 @@ header h1 {
 
 .section-01 button{
     padding: 9px;
-    background-color: brown;
-    color: black;
-
+    background-color: #a05143d5;
+    color: rgb(255, 252, 252);
+    width: 200px;
+    border-color: transparent;
 }
+
+/*fim da primeira sessão*/
+
+
+
+/*inicio da segunda sessão*/
 
 .section-02{
     background-color: #c99991;
@@ -71,12 +78,45 @@ header h1 {
 }
 
 .section-02 div{
-    width: 200px;
-    height: 200px;
-    background-color:black; 
+    width: 600px;
+    height: 300px;
+    background-color: #a05143d5;
     text-align: center;
     padding: 10px;
 }
+
+
+.div-01 h2{
+    color: white;
+    font-weight: 800;
+}
+
+.div-01 p{
+color: white;
+font-weight: 600;
+
+}
+
+.div-02{
+    background-image: url(imagens/Conheca-os-Principais-Modelos-de-Casas-de-Madeira-300x300.jpg.webp);
+    background-size: cover;
+
+}
+
+.div-03 h2{
+    color: white;
+    font-weight: 800;
+
+}
+
+.div-03 p{
+    color: white;
+    font-weight: 600;
+
+}
+
+
+
 
 .section-03{
     background-color: #dbaaa1;
@@ -92,31 +132,45 @@ header h1 {
     color: white;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
 }
 
 .section-03 span{
-    font-size: 50px;
+    font-size: 40px;
     color: black ;
 }
 
 .section-04{
-    background-color: #edbbb2;
+    background-color: #c79b93;
     padding: 200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
+    gap: 40px;
 }
 
 .section-04 p{
     font-size: 40px;
     color: white;
+    background-color: rgba(128, 128, 128, 0.479);
 
 }
 
 footer{
-    background-color: black;
-    padding: 100px;
+    background-color: #c08e85;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p{
+   color: black;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+footer i{
+    color: brown;
+    font-size: 50px;
 }
 
 
