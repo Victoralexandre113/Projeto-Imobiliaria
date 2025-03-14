@@ -1,0 +1,130 @@
+header {
+    /*Estilizando o Header*/
+
+    background-color: #b78880;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+
+}
+
+header i {
+    color: brown;
+    font-size: 70px;
+
+}
+
+header h1 {
+
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.list-01 ul {
+    justify-content: center;
+    gap: 15px;
+    display: flex;
+}
+
+.list-01 ul li{
+    list-style: none;
+}
+   
+  
+.list-01 ul li a {
+    text-decoration: none;
+    color: white
+}
+
+/*fim do cabeçalho*/
+
+
+/*inicio da primeira sessão*/
+
+.section-01{
+    padding: 300px;
+    background-image: url(imagens/fachadas-de-casas-duas-aguas-simples.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.section-01 button{
+    padding: 9px;
+    background-color: brown;
+    color: black;
+
+}
+
+.section-02{
+    background-color: #c99991;
+    padding: 200px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.section-02 div{
+    width: 200px;
+    height: 200px;
+    background-color:black; 
+    text-align: center;
+    padding: 10px;
+}
+
+.section-03{
+    background-color: #dbaaa1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 200px;
+    
+}
+
+.section-03 p{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-03 span{
+    font-size: 50px;
+    color: black ;
+}
+
+.section-04{
+    background-color: #edbbb2;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-04 p{
+    font-size: 40px;
+    color: white;
+
+}
+
+footer{
+    background-color: black;
+    padding: 100px;
+}
+
+
+/* paleta de cores - https://paletadecores.com/paleta/ffccc3/edbbb2/dbaaa1/c99991/b78880/*/
+
+
+
+
+
+
+
