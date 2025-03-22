@@ -1,7 +1,67 @@
-header {}
+header {
+
+    background-color: #095044;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    padding: 40px;
+
+}
+
+header i {
+    color: rgb(12, 230, 175);
+    font-size: 70px;
+
+}
+
+header h1 {
+
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.list-01 ul {
+    justify-content: center;
+    gap: 15px;
+    display: flex;
+}
+
+.list-01 ul li {
+    list-style: none;
+    
+}
 
 
-.contatos-02 {}
+.list-01 ul li a {
+    text-decoration: none;
+    color: white
+}
+
+.contatos-00{
+    background-color:  #0f5348;
+    padding: 15px;
+    color: white;
+    
+}
+
+.contatos-01{
+    background-color: #0f5348;
+    padding: 15px;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+.contatos-02 {
+    background-color:#0f5348;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+}
 
 .contatos-02 ul {
     justify-content: start;
@@ -10,9 +70,15 @@ header {}
     align-items: start;
     padding: 8px;
     list-style: none;
+    
 }
 
-.contatos-03 {}
+.contatos-03 {
+    background-color: #0f5348;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+}
 
 .contatos-03 ul {
     justify-content: start;
@@ -23,7 +89,12 @@ header {}
     list-style: none;
 }
 
-.contatos-04 {}
+.contatos-04 {
+    background-color: #0f5348;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+}
 
 .contatos-04 ul {
     justify-content: start;
@@ -34,7 +105,12 @@ header {}
     list-style: none;
 }
 
-.contatos-05 {}
+.contatos-05 {
+    background-color: #0f5348;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+}
 
 .contatos-05 ul {
     justify-content: start;
@@ -45,9 +121,17 @@ header {}
     list-style: none;
 }
 
-.contatos-06 {}
+.contatos-06 {
+    background-color: #0f5348;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+}
 
-.contatos-06 ul {}
+.contatos-06 ul {
+    background-color: #0f5348;
+    padding: 10px;
+}
 
 .contatos-06 ul {
     justify-content: start;
@@ -58,19 +142,29 @@ header {}
     list-style: none;
 }
 
-.contatos-07{}
+.contatos-07{
+    background-color: #0f5348;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+}
 
 .contatos-07 ul{
     justify-content: start;
-    gap: 10px;
+    gap: 8px;
     display: flex;
     align-items: start;
-    padding: 8px;
+    padding: 3px;
     list-style: none;
 }
 
 
-.contatos-08 {}
+.contatos-08 {
+    background-color: #0f5348;
+    padding: 5px;
+    color: white;
+    font-weight: 900;
+}
 
 .contatos-08 ul {
     justify-content: start;
@@ -81,7 +175,14 @@ header {}
     list-style: none;
 }
 
-.section-contatos{
-    display: flex;
-    justify-content: center;
-}
+
+
+    
+
+
+  
+
+
+
+
+ 
