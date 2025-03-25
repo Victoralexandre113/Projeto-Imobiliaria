@@ -175,7 +175,22 @@ header h1 {
     list-style: none;
 }
 
+footer {
+    background-color: #095044;
+    padding: 10px;
+    text-align: center;
+}
 
+footer p {
+    color: black;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+footer i {
+    color:rgb(12, 230, 175);
+    font-size: 50px;
+}
 
     
 

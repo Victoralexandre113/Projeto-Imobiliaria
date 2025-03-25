@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    scroll-behavior: smooth; /*Scrool Suave nas transições*/
+    scroll-behavior: smooth;
+    /*Scrool Suave nas transições*/
 }
 
-header {/*Estilizando o Header*/
-    
+header {
+    /*Estilizando o Header*/
+
 
     background-color: #b78880;
     display: flex;
@@ -31,6 +33,7 @@ header h1 {
 
 }
 
+
 .list-01 ul {
     justify-content: center;
     gap: 15px;
@@ -46,6 +49,14 @@ header h1 {
     text-decoration: none;
     color: white
 }
+
+header div ul li :hover {
+
+    transition: 0.8s;
+    color: black;
+}
+
+
 
 /*fim do cabeçalho*/
 
@@ -68,6 +79,12 @@ header h1 {
     color: rgb(255, 252, 252);
     width: 200px;
     border-color: transparent;
+}
+
+.section-01 button:hover {
+    background-color: goldenrod;
+    color: black;
+    transition: 0.8s;
 }
 
 /*fim da primeira sessão*/
@@ -191,6 +208,12 @@ footer p {
 footer i {
     color: brown;
     font-size: 50px;
+}
+
+footer p:hover {
+    color:white;
+    transition: 0.8s;
+    
 }
 
 /* fim do rodapé */
