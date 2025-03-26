@@ -56,6 +56,9 @@ header div ul li :hover {
     color: black;
 }
 
+.fa-user{
+    font-size: 25px;
+}
 
 
 /*fim do cabeçalho*/
@@ -187,6 +190,11 @@ header div ul li :hover {
     color: white;
     background-color: rgba(128, 128, 128, 0.479);
 
+}
+
+.section-04 iframe:hover{
+box-shadow: 20px 20px 30px;
+transition: 0.8s;
 }
 
 /* fim da quarta sessão */

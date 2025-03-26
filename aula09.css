@@ -1,6 +1,15 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+
 header {
 
-    background-color: #095044;
+    background-color:#b78880;
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
@@ -10,7 +19,7 @@ header {
 }
 
 header i {
-    color: rgb(12, 230, 175);
+    color: brown;
     font-size: 70px;
 
 }
@@ -40,15 +49,117 @@ header h1 {
     color: white
 }
 
+header div ul li :hover{
+color: black;
+transition: 0.8s;
+}
+
+
+.sessao01 {
+    padding: 150px;
+    background-color: #c5958c;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.sessao01 i {
+    font-size: 30px;
+
+}
+.sessao02 i {
+    font-size: 30px;
+
+}
+
+.sessao01 div {
+    width: 380px;
+    height: 600px;
+    background-color: #c5958c;
+    border-radius: 10px;
+}
+
+.sessao01 div p { 
+    color: aliceblue;
+    font-size: 20px;
+    display: contents;
+    justify-content: center;
+}
+.sessao01 div h3 {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+
+
+
+
+.caixa1 img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.caixa2 img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.caixa3 img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.sessao01 span {
+    color: #fffb00;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+
+
+.sessao02 {
+    padding: 150px;
+    background-color: #c5958c;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.sessao02 div {
+    width: 380px;
+    height: 600px;
+    background-color: #c5958c;
+    border-radius: 10px;
+    padding: 5px;
+}
+.sessao02 img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.sessao02 p {
+       color: aliceblue;
+    font-size: 20px;
+   display: contents;
+    justify-content: center;
+
+}
+.sessao02 div:hover {
+    box-shadow: 20px 20px 30px black;
+    transition: 0.8s;
+}
+
+
 .contatos-00{
-    background-color:  #0f5348;
+    background-color:  #c99991;
     padding: 15px;
-    color: white;
+    color: white
     
 }
 
 .contatos-01{
-    background-color: #0f5348;
+    background-color: #c99991;
     padding: 15px;
     font-weight: 900;
     color: white;
@@ -57,7 +168,7 @@ header h1 {
 
 
 .contatos-02 {
-    background-color:#0f5348;
+    background-color:#c99991;
     padding: 10px;
     color: white;
     font-weight: 900;
@@ -74,7 +185,7 @@ header h1 {
 }
 
 .contatos-03 {
-    background-color: #0f5348;
+    background-color: #c99991;
     padding: 10px;
     color: white;
     font-weight: 900;
@@ -90,7 +201,7 @@ header h1 {
 }
 
 .contatos-04 {
-    background-color: #0f5348;
+    background-color: #c99991;
     padding: 10px;
     color: white;
     font-weight: 900;
@@ -106,7 +217,7 @@ header h1 {
 }
 
 .contatos-05 {
-    background-color: #0f5348;
+    background-color:#c99991;
     padding: 10px;
     color: white;
     font-weight: 900;
@@ -122,14 +233,14 @@ header h1 {
 }
 
 .contatos-06 {
-    background-color: #0f5348;
+    background-color: #c99991;
     padding: 10px;
     color: white;
     font-weight: 900;
 }
 
 .contatos-06 ul {
-    background-color: #0f5348;
+    background-color: #c99991;
     padding: 10px;
 }
 
@@ -143,7 +254,7 @@ header h1 {
 }
 
 .contatos-07{
-    background-color: #0f5348;
+    background-color: #c99991;
     padding: 10px;
     color: white;
     font-weight: 900;
@@ -160,7 +271,7 @@ header h1 {
 
 
 .contatos-08 {
-    background-color: #0f5348;
+    background-color: #c99991;
     padding: 5px;
     color: white;
     font-weight: 900;
@@ -176,7 +287,7 @@ header h1 {
 }
 
 footer {
-    background-color: #095044;
+    background-color: #c08e85;
     padding: 10px;
     text-align: center;
 }
@@ -188,10 +299,15 @@ footer p {
 }
 
 footer i {
-    color:rgb(12, 230, 175);
+    color:brown;
     font-size: 50px;
 }
 
+footer P:hover{
+color: white;
+transition: 0.8s;
+
+}
     
 
 
