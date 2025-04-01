@@ -4,23 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>formulario de Login</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/9495c2a2e7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <form action="">
+    <div class="formulario-01">
+        <form action="">
+            <i class="fa-solid fa-sign-hanging"></i>
+            <h2>Entre e Acesse </h2>
 
-        <label for="input email">EMAIL</label>
-        <input type="email" class="input email" id="input email" name="input email" placeholder="insira seu e-mail">
-        <br>
+            <p>Conheça as nossas ofertas e descontos exclusivos para clientes da JK Imobiliária.</p>
 
-        <label for="">SENHA</label>
-        <input type="password" class="input-password" id="input-password" name="input-password"
-            placeholder="digite sua senha "> <br>
+            <label for="input email">EMAIL</label>
+            <input type="email" class="input email" id="input email" name="input email" placeholder="insira seu e-mail"
+                required>
+            <br>
 
-        <input type="submit" value="Cadastre-se">
-    </form>
+            <label for="">SENHA</label>
+            <input type="password" class="input-password" id="input-password" name="input-password"
+                placeholder="digite sua senha " required> <br>
+
+            <a href="form2.html">
+                <p>Não tem login? Cadastre-se</p>
+            </a>
+
+            <input type="submit" value="Entrar" class="btn-form">
+        </form>
+    </div>
+
+
+    <!-- required - obriga o usuário a preencher os campos do formulario para envio das informações -->
+
     <!-- LABEL - Usada como eituqeta para formulário ( nome da caixa ) peça fundamental para construçãoo de formularios. o 
      (for**) que é vinculado com ele servirá para especificar a qual unput ele pertence/conversa. -->
 
@@ -31,6 +48,7 @@
  dentro do formulario, sendo essencial para um formulario. Alterando o "value" é possivel trocar o nome de visualização do botão.-->
 
     <!-- O placeholder - é para colocar um texto dentro do input de mensagem pra digitação do texto - exemplo: placeholder="digite sua senha "  -->
+
 </body>
 
 </html>

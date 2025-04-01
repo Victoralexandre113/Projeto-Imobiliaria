@@ -10,32 +10,29 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 75px;
-
 }
 
-
-.formulario-01 {
-    height: 370px;
-    width: 330px;
+.formulario-02 {
+    height: 570px;
+    width: 430px;
     background-color: #b78880;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 10px 10px 15px;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
 }
 
-label{
+label {
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-
-.btn-form{
-    background-color:#a05143d5;
+.btn-form2 {
+    background-color: #a05143d5;
     color: white;
     padding: 10px;
     border: none;
@@ -44,7 +41,7 @@ label{
     cursor: pointer;
 }
 
-.formulario-01 i{
+.formulario-02 i{
     font-size: 45px;
     color: brown;
     display: flex;
@@ -52,10 +49,11 @@ label{
     align-items: center;
 }
 
-.btn-form:hover{
+
+.btn-form2:hover{
     background-color: goldenrod;
-    transition: 0.8s;
     color: black;
+    transition: 0.8s;
 }
 
 h2, p {
@@ -64,3 +62,4 @@ font-family: Arial, Helvetica, sans-serif;
 font-weight: 800;
 text-align: center;
 }
+
