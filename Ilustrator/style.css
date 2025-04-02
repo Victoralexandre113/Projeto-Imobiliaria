@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgb(44, 68, 71);
+    padding: 15px;
+    align-items: center;
+}
+
+header img {
+    width: 350px;
+    height: auto;
+}
+
+header button {
+    width: 150px;
+    padding: 3px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.644);
+    color: white;
+}
+
+
+header button:hover {
+    background-color: brown;
+    transition: 0.8s;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.section-01 {
+    
+    background-image: url(imagens/necktie-1284463_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding: 200px;
+}
