@@ -13,7 +13,7 @@ body {
 }
 
 .formulario-02 {
-    height: 570px;
+    height: 640px;
     width: 430px;
     background-color: #b78880;
     padding: 30px;
@@ -29,6 +29,11 @@ form {
 label {
     margin-bottom: 5px;
     font-weight: bold;
+   
+}
+
+input{
+    padding: 6px;   
 }
 
 .btn-form2 {
